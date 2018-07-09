@@ -28,7 +28,8 @@ public class Benchmark<T> {
         }
         long end_time = System.nanoTime() - start_time;
         double avg = end_time / n;
-        avg = avg / 1e6;
+        //avg = avg / 1e6;
+        avg = avg / 1000000;
         return avg;
         //return 0;
     }
