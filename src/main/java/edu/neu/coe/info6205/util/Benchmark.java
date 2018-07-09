@@ -11,7 +11,7 @@ import java.util.Random;
 
 import java.util.function.Function;
 
-//assignment 3
+//assignment 3 - final
 public class Benchmark<T> {
 
     public Benchmark(Function<T, Void> f) {
